@@ -46,15 +46,15 @@
 
 ## :dart: About ##
 
-This is a basic example of a ToDo list
+This is an example of a ToDo list
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Input type text to add a new ToDo;\
-:heavy_check_mark: There is a span justified to the right with [X] where a 'todo' can be deleted;\
-:heavy_check_mark: Content centered;\
-:heavy_check_mark: Hover on todo elements;\
-:heavy_check_mark: Pointer over [X];
+:heavy_check_mark: Input type text to add a new ToDo\
+:heavy_check_mark: There is a span justified to the right with [X] where a 'todo' can be deleted\
+:heavy_check_mark: Content centered\
+:heavy_check_mark: Hover on todo elements\
+:heavy_check_mark: Pointer over [X]
 
 ## :white_check_mark: Requirements ##
 
