@@ -53,7 +53,9 @@ span {cursor: pointer;}
 }
 
 .input {
-    font-size: 40px;
+    background-color: rgb(179, 243, 179);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5) ;
+    font-size: 30px;
     width: 90%;
     border-radius: 10px;
 }
