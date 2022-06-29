@@ -4,15 +4,17 @@ body {
     font-family: 'Macondo', cursive;
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 50px;
-    align-items: center;
+    text-align: center;
 }
 
 .header {
+    color: #5ac60d;
+    margin: 40px auto 20px auto;
+    max-width: 450px;
     background: #fff;
     font-size: 2em;
     display: flex;
     justify-content: center;
-    margin: 10vW 10% 40PX  10%;
     border-radius: 20PX;
 }
 .form{
@@ -20,18 +22,19 @@ body {
 }
 
 .app{
-    background: #5ef009;
+    max-width: 500px;
+    background: #086fd5;
     padding: 30px;
     text-align: center;
     border-radius: 2vw;
-    margin: 10px 20px 10px 20px;
+    margin: 10px auto 10px auto;
     padding: 20px 20px 10px 20px;
-    
 }
 
 .todo-list{
 
 }
+span {cursor: pointer;}
 
 .todo {
     font-family: 'Rubik Moonrocks', cursive;
@@ -39,12 +42,16 @@ body {
     background: #fff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5) ;
     padding: 3px 10px;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom : 6px;
     border-radius : 10px;
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.todo:hover{
+    background: #e36905;
 }
 
 .input {
