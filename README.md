@@ -46,27 +46,15 @@
 
 ## :dart: About ##
 
-Describe your project
+This is a basic example of a ToDo list
 
 ## :sparkles: Features ##
 
 :heavy_check_mark: Input type text to add a new ToDo;\
-:heavy_check_mark: There is a span justified to the right with [X] where a 'todo' can be deleted
-
-;\
+:heavy_check_mark: There is a span justified to the right with [X] where a 'todo' can be deleted;\
 :heavy_check_mark: Content centered;\
 :heavy_check_mark: Hover on todo elements;\
 :heavy_check_mark: Pointer over [X];
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
@@ -81,13 +69,13 @@ $ git clone https://github.com/gibranalcazar/todo-list
 # Access
 $ cd todo-list
 
-# Install dependencies
-$ yarn
+# Install Http-server if you don´t have it already
+$ npm install --global http-server
 
 # Run the project
-$ yarn start
+$ http-server -c-1
 
-# The server will initialize in the <http://localhost:3000>
+# Normally the server will initialize in the <http://localhost:8080>
 ```
 
 ## :memo: License ##
